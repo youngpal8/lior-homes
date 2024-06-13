@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIOR HOMES AND INTERIORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+     .king {
+        height: 25vh;
+            width: 100%;
+            background-color: rgb(241, 247, 247);
+            position: relative;
+        }
+        .dolls {
+            position: absolute;
+            margin-left: 30px;
+            display: flex;
+        }
+        form {
+  background-color: #f0c1ea;
+  width: 300px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 15px;
+  position: absolute;
+}
+        input {
+  all: unset;
+  font: 16px system-ui;
+  color: #3b3535;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+  padding: 6px 10px;
+}
+placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+.logo {
+    margin-left: 520px;
+}
+.profile {
+    margin-top: -68px;
+    margin-left: 1070px;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  margin-left: 1071px;
+  visibility: visible;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+.light-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  margin-left: 150px;
+  margin-top: -10px;
+  visibility: visible;
+  z-index: 2000;
+}
+.light-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+.light-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+.light:hover .light-options {
+  display: block;
+  
+}
+
+.light:hover {
+  color: #f0c1ea;
+}
+
+
+
+.cart {
+    margin-left: 1120px;
+    margin-top: -25px;
+}
+.one {
+    margin-top: 20px;
+}
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+.navbar li a {
+    text-decoration: none;
+    margin-left: 14px;
+    margin-right: 7px;
+    color: rgb(83, 80, 80);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.navbar {
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+.follow {
+    margin-left: 1200px;
+    position: absolute;
+    padding: 10px;
+}
+.slideshow-container {
+    max-width: 1400px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+    background-color: rgba(0,0,0,0.65);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+     
+    </style>
+</head>
+<body>
+    <section class="king">
+        <div>
+            <form id="form" role="search"> 
+                <div class="dolls">
+                <input type="search" id="query" name="q" placeholder="Search..."
+                aria-label="search through site content">
+                <button class="dog"><img src="images/Untitled-removebg-preview.png" alt="" height="25px" width="25px"></button>
+                </div>
+              </form>
+        </div>
+        <div class="follow">
+            <p style="color: rgb(83, 80, 80);font-family: Georgia, 'Times New Roman', Times, serif;font-weight: small; font-size: small;">Follow us</p>
+            <a href="https://www.instagram.com/lior_homes/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://t.me/liorhomes1"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://wa.link/aw3w9j"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+        <div class="logo">
+            <img src="images/Lior Homes and Interiors.png" alt="" height="130px" width="130px">
+        </div>
+        <div class="dropdown">
+        <div class="profile">
+          <a href="profile.html"><i style="color: black; font-size: 25px;" class="fa fa-user" aria-hidden="true"></i></a>  
+        </div>
+        <div class="dropdown-options">
+            <a href="#">Dashboard</a>
+            <a href="#">Setting</a>
+            <a href="#">Sign In/Out</a>
+          </div>
+        </div>
+        <div class="cart">
+            <a href="cart.html"><i style="color: black; font-size: 25px;" class="fa fa-shopping-cart" aria-hidden="true" ></i></a>
+        </div>
+       
+            
+        <hr class="one" width="100%" color="gray" size="1">
+        <div>
+            <ul class="navbar">
+                <li><a style="color: rgb(12, 170, 170);" href="index.html">Home</a></li>
+                <li><a class="light" href="light.html">Lights &#8675;</a></li>
+                <li><a href="frame.html">Frames &#8675;</a></li>
+                <li><a href="rugs.html">Rugs &#8675;</a></li>
+                <li><a href="bedding.html">Beddings &#8675;</a></li>
+                <li><a href="ornament.html">Ornament & Vases &#8675;</a></li>
+                <li><a href="tables.html">Tables & Dinning &#8675;</a></li>
+                <li><a href="gaming.html">Gaming &#8675;</a></li>
+                <li><a href="others.html">Other Luxeries &#8675;</a></li>
+            </ul>
+        </div>
+        <div class="light-options">
+          <a href="#">Chandeliers</a>
+          <a href="#">Floor lamps</a>
+          <a href="#">Task lighting</a>
+          <a href="#">Cove lighting</a>
+          <a href="#">Sconces</a>
+        </div>
+
+    </section>
+    <section>
+        <section class="boss">
+        </div>
+        <div class="slideshow-container" style="margin-left: 0;">
+         <div class="mySlides fade">
+           <a href="google.com" target="_blank">
+               <img src="images/photo_5807950881742766938_y.jpg" style="width:100%;" height="400px">
+           </a>
+         </div>
+       
+         <div class="mySlides fade">
+          <a href="google.com" target="_blank">
+           <img src="images/photo_5807950881742766933_y.jpg" style="width:100%;" height="400px">
+          </a>
+         </div>
+       
+         <div class="mySlides fade">
+          <a href="google.com" target="_blank">
+           <img src="images/photo_5778241764027646270_y.jpg" style="width:100%;" height="400px">
+          </a>
+         </div>
+    
+         <div class="mySlides fade">
+          <a href="google.com" target="_blank">
+           <img src="images/photo_5978808073801809580_y.jpg" style="width:100%;" height="400px">
+          </a>
+         </div>
+    
+         <div class="mySlides fade">
+          <a href="google.com" target="_blank">
+           <img src="images/photo_5823187819391205307_y.jpg" style="width:100%;" height="400px">
+          </a>
+         </div>
+       
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+        
+    </section>
+        
+
+    <script src="Js/Lone.js"></script>
+</body>
+</html>
